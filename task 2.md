@@ -25,4 +25,14 @@ self.view.addSubview(label1)
 
 ## создадим TextField (3 branch)
 
+```
+var textField  = UITextField()
+textField = UITextField(frame: CGRect(x: 0, y: 0, width: 300, height: 40))
+textField.center = CGPoint(x: view.center.x, y: view.center.y + 100.0)
+textField.borderStyle = .roundedRect
+textField.placeholder = "enter text"
+textField.textAlignment = .center
+view.addSubview(textField)
+```
+
 ## создадим Switch (4 branch)
