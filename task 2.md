@@ -41,5 +41,5 @@ view.addSubview(textField)// сюда пробуем добавить конфи
 var sw  = UISwitch()
 sw.center = CGPoint(x: coord.midX, y: coord.midY-100)
 self.view.addSubview(sw)
-sw.addTarget(self, action: #selector(sw(target: )), for: .valueChanged)
+sw.addTarget(self, action: #selector(sw(target: )), for: .valueChanged)// в остновную ветку main добавим этот комментарий 
 ```
