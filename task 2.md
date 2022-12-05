@@ -13,6 +13,16 @@ self.view.addSubview(buttonNextScreen)
 
 ## создадим Label (2 branch)
 
+```
+var label1 = UILabel()
+label1.frame = CGRect(x: 0, y: 0, width: 100, height: 30)
+label1.center = view.center
+label1.text = "TestLabel"
+label1.adjustsFontSizeToFitWidth = true
+self.view.addSubview(label1)
+
+```
+
 ## создадим TextField (3 branch)
 
 ## создадим Switch (4 branch)
