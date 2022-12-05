@@ -42,4 +42,6 @@ var sw  = UISwitch()
 sw.center = CGPoint(x: coord.midX, y: coord.midY-100)
 self.view.addSubview(sw)
 sw.addTarget(self, action: #selector(sw(target: )), for: .valueChanged)// в остновную ветку main добавим этот комментарий 
+sw.addTarget(self, action: #selector(sw(target: )), for: .valueChanged)// в ветке switch добавляем этот комментарий
+
 ```
