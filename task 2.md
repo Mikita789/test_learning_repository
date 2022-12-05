@@ -32,7 +32,14 @@ textField.center = CGPoint(x: view.center.x, y: view.center.y + 100.0)
 textField.borderStyle = .roundedRect
 textField.placeholder = "enter text"
 textField.textAlignment = .center
-view.addSubview(textField)
+view.addSubview(textField)// сюда пробуем добавить конфиликт
 ```
 
 ## создадим Switch (4 branch)
+
+```
+var sw  = UISwitch()
+sw.center = CGPoint(x: coord.midX, y: coord.midY-100)
+self.view.addSubview(sw)
+sw.addTarget(self, action: #selector(sw(target: )), for: .valueChanged)
+```
