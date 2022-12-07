@@ -45,3 +45,4 @@ sw.addTarget(self, action: #selector(sw(target: )), for: .valueChanged)// в о�
 sw.addTarget(self, action: #selector(sw(target: )), for: .valueChanged)// в ветке switch добавляем этот комментарий
 
 ```
+Добавим доп информацию для выгрузки на github
